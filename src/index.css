@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --scrollbar-bg: #232634;
+  --scrollbar-fg: #626880;
+  --scrollbar-hover-fg: #e5c890;
+}
+
+html {
+  font-family: "Lexend", sans-serif;
+}
+
+* {
+  scrollbar-color: var(--scrollbar-hover-fg) var(--scrollbar-bg);
+}
+
+*::-webkit-scrollbar {
+  background-color: var(--scrollbar-bg);
+  width: 0.5rem;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-fg);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-hover-fg);
+}
