@@ -6,7 +6,7 @@ export const Info: Component = () => {
       <div class="lg:w-1/2">
         <div class="flex h-full flex-col items-center justify-center gap-6 lg:flex-row lg:gap-12">
           <div class="flex w-1/2 flex-col gap-2 md:w-2/5">
-            <img class="rounded-lg" src="src/assets/portrait.png" alt="portrait" />
+            <img class="rounded-lg" src="/images/portrait.png" alt="portrait" />
             <small class="self-end">Self Portrait from 2021</small>
           </div>
           <div class="flex flex-col gap-4 md:w-3/5">
